@@ -19,6 +19,10 @@ python3 front-end.py
 
 If you want to generate a new script based on a specific topic, you need to run `philosim.py`. But for this you need to setup some environment variables first, see next section.
 
+```
+python3 philosim.py
+```
+
 ### Setting up environment variables (OPTIONAL)
 
 If you want to generate new scripts, you need to set your `OPENAI_API_KEY` and `TIKTOK_SESSION_ID` environment variables. The TikTok session id is needed for using TikTok's text to speech API, which is totally free. I used this [repo](https://github.com/oscie57/tiktok-voice) by [oscie57](https://github.com/oscie57) for this clever TikTok TTS trick. You also have the option to simply run an already generated script, this will not require you to set any environment variables.

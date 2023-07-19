@@ -58,7 +58,7 @@ def get_count(directory):
 def save_script_and_audio(script, session_id):
     print("Saving script ...")
     # create directory for the script using an index and the topic name
-    current_directory = os.path.join(os.getcwd(), "scripts")
+    current_directory = "scripts"
 
     count = get_count(current_directory)
     
