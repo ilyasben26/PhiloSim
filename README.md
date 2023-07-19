@@ -37,12 +37,12 @@ On Windows CMD:
 
 ```
 set OPENAI_API_KEY = <your OpenAI API key>
-set TIKTOK_SESSION_ID = <your OpenAI API key>
+set TIKTOK_SESSION_ID = <your TikTok session id>
 ```
 
 On MacOS and Linux:
 
 ```
 export OPENAI_API_KEY = <your OpenAI API key>
-export TIKTOK_SESSION_ID = <your OpenAI API key>
+export TIKTOK_SESSION_ID = <your TikTok session id>
 ```
