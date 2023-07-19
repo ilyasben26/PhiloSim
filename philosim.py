@@ -19,9 +19,6 @@ def main():
     # play the script
     play_script(script_path)
 
-def test():
-    check_fix_audio("scripts/script_19")
-
 if __name__ == "__main__":
    main()
     
