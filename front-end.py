@@ -99,7 +99,7 @@ def play():
         nietzsche.draw(SCREEN)
         socrates.draw(SCREEN)
         # displaying the text
-        blit_text(SCREEN, line, (5, 5), font, pygame.Color('black'))
+        #blit_text(SCREEN, line, (5, 5), font, pygame.Color('black'))
     
         # handles showing the messages one by one and also the audio
         if pygame.mixer.music.get_busy() == False and active_line < len(script):
