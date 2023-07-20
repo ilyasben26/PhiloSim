@@ -1,4 +1,4 @@
-from functions import *
+from backend_functions import *
 
 def main():
     # secrets

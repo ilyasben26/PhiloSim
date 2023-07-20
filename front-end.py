@@ -2,10 +2,11 @@ import os, json, sys
 os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = '1'
 import pygame
 from random import randrange
-from functions import *
-from game_functions import *
-from button import Button
-from character import Character
+from backend_functions import *
+from pygame_functions import *
+#from button import Button
+#from character import Character
+from pygame_components import *
 
 
 
