@@ -3,7 +3,7 @@
 ![image](assets/promo/cover.png)
 PhiloSim is an AI powered philosophical conversation generator. It uses OpenAI's GPT-3.5-TURBO to generate a conversation between Socrates and Friedrich Nietzsche about a particular topic. It then uses TikTok's text-to-speech functionality to give a voice to the generated script. The script is then played using PyGame. 
 
-See [Preview](#Loneliness)
+See [Preview](#Previews)
 
 ## Installing Dependencies
 
