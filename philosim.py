@@ -1,5 +1,5 @@
 from backend_functions import *
-
+from front_end import *
 def main():
     # secrets
     openai.api_key = os.getenv("OPENAI_API_KEY") # alternatively, you can simply put your OPEN AI key directly here
@@ -17,7 +17,7 @@ def main():
 
     check_fix_audio(script_path)
     # play the script
-    play_script(script_path)
+    play(script_path)
 
 if __name__ == "__main__":
    main()

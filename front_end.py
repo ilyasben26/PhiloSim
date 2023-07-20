@@ -4,8 +4,6 @@ import pygame
 from random import randrange
 from backend_functions import *
 from pygame_functions import *
-#from button import Button
-#from character import Character
 from pygame_components import *
 
 
@@ -82,13 +80,17 @@ def main_menu():
 
         pygame.display.update()
 
-def play():
+def play(path=''):
     # get a random script
-    random = randrange(get_count(scripts_root))
-    print(f"script_{random}")
-    script_root = f"./scripts/script_{random}"
-    script = fetch_lines(script_root)
-    root_audio = fetch_audios(script_root)
+    if path == '':
+        random = randrange(get_count(scripts_root))
+        print(f"script_{random}")
+        script_root = f"./scripts/script_{random}"
+        script = fetch_lines(script_root)
+        root_audio = fetch_audios(script_root)
+    else:
+        script = fetch_lines(path)
+        root_audio = fetch_audios(path)
     active_line = 0
     line = script[active_line]['message']
     while True:
@@ -140,5 +142,8 @@ def play():
 
         pygame.display.update()
 
+def main():
+    main_menu()
 
-main_menu()
+if __name__ == "__main__":
+   main()
